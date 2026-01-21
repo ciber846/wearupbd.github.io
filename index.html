@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>WearUp BD</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahinur Online Shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to WearUp BD</h1>
-  <p>Official website for our products</p>
-  <a href="https://facebook.com/yourpage">Order on Facebook</a>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h2>Shahinur Shop</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="box">
+      <h1>Welcome to Shahinur Shop</h1>
+      <p>High-quality Dresses, Watches, Cosmetics & More</p>
+      <button>Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Products / Gallery -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="gallery">
+      <div class="product-card">
+        <img src="images/dress1.jpg" alt="Dress 1">
+        <p>Elegant Dress</p>
+      </div>
+      <div class="product-card">
+        <img src="images/watch1.jpg" alt="Watch 1">
+        <p>Stylish Watch</p>
+      </div>
+      <div class="product-card">
+        <img src="images/cosmetic1.jpg" alt="Cosmetic 1">
+        <p>Cosmetic Set</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Shahinur Shop is your one-stop online store for premium fashion and lifestyle products. We provide high-quality items at affordable prices.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
 </body>
 </html>
